@@ -1,12 +1,21 @@
-🎓 Öğrenci Not Sistemi Projesi
-Bu proje, Python programlama dili kullanılarak geliştirilmiş, öğrenci bilgilerini ve akademik notları yönetmeyi sağlayan kapsamlı bir sistemdir. Modern yazılım geliştirme prensiplerine uygun olarak Nesne Tabanlı Programlama (OOP) ve Modüler Mimari üzerine inşa edilmiştir.
+# 🎓 Öğrenci Not Sistemi Projesi
 
-🛠️ Teknik Özellikler
-Programlama Dili: Python 3.14.0
-Veri Yönetimi: SQlite (Veri serileştirme yöntemiyle kalıcı depolama)
-Mimari Yapı: Nesne Tabanlı Programlama (Class, Property, Decorators, Encapsulation)
-Arayüz: Konsol (CLI) Tabanlı Etkileşimli Menü
-📂 Proje Yapısı ve Modüller
+Bu proje, **Python** programlama dili kullanılarak geliştirilmiş, öğrenci bilgilerini ve akademik notları yönetmeyi sağlayan kapsamlı bir sistemdir. Modern yazılım geliştirme prensiplerine uygun olarak **Nesne Tabanlı Programlama (OOP)** ve **Modüler Mimari** üzerine inşa edilmiştir.
+
+---
+
+## 🛠️ Teknik Özellikler
+
+*   **Programlama Dili:** Python 3.14.0
+*   **Veri Yönetimi:** SQlite (Veri serileştirme yöntemiyle kalıcı depolama)
+*   **Mimari Yapı:** Nesne Tabanlı Programlama (Class, Property, Decorators, Encapsulation)
+*   **Arayüz:** Konsol (CLI) Tabanlı Etkileşimli Menü
+
+---
+
+## 📂 Proje Yapısı ve Modüller
+
+```text
 Ogrenci_Not_Sistemi_Proje/
 ├── main.py          # Uygulamanın giriş noktası ve ana döngü
 ├── models.py        # OOP Sınıfları (Ogrenci, Ders) ve veri kapsülleme
@@ -20,7 +29,7 @@ Ders Sınıfı: Not aralıklarını kontrol eder ve harf notu (AA, BA, vb.) hesa
 Öğrenci Sınıfı: Öğrenci bilgilerini tutar, ders ekleme/silme ve genel ortalama/durum (Geçti/Kaldı) hesaplamalarını yönetir.
 
 2. database.py (Veri Kalıcılığı)
-Öğrenci nesnelerini ve ders bilgilerini ogrenci_not_sistemi.db  dosyasına kaydeder.
+Öğrenci nesnelerini ve ders bilgilerini ogrenci_not_sistemi.db dosyasına kaydeder.
 
 Uygulama başlatıldığında verileri dosyadan çekerek tekrar Python nesnelerine dönüştürür.
 
@@ -38,7 +47,7 @@ Veritabanındaki mevcut verileri yükler ve ana program döngüsünü başlatara
 Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
 
 Proje klasörünü terminalde (veya CMD) açın.
+
 Aşağıdaki komutu girerek sistemi başlatın:
 python main.py
-Bu proje akademik bir çalışma kapsamında modüler yapı ve OOP prensiplerini uygulamak amacıyla geliştirilmiştir.
-
+*Bu proje akademik bir çalışma kapsamında modüler yapı ve OOP prensiplerini uygulamak amacıyla geliştirilmiştir.*
